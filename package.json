@@ -30,6 +30,7 @@
     "argument"
   ],
   "devDependencies": {
+    "bun-types": "^1.0.15",
     "typescript": "^5.0.2"
   },
   "dependencies": {
