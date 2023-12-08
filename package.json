@@ -1,0 +1,38 @@
+{
+  "name": "@daaku/shtl",
+  "author": "Naitik Shah <n@daaku.org>",
+  "version": "0.1.0",
+  "description": "Template Literals for Shell Commands.",
+  "repository": "git@github.com:daaku/shtl",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "scripts": {
+    "deploy": "npm publish --access=public",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "template",
+    "literal",
+    "shell",
+    "command",
+    "argument"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "string-argv": "^0.3.2"
+  }
+}

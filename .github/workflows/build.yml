@@ -1,0 +1,10 @@
+name: Build
+on: [push]
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun test

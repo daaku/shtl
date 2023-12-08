@@ -1,0 +1,6 @@
+/.bunfig.toml
+/.github
+/bun.lockb
+/dist/*test*
+/src
+/tsconfig.json
