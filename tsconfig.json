@@ -12,7 +12,6 @@
     "sourceMap": true,
     "strict": true,
     "strictBindCallApply": true,
-    "target": "es2022",
-    "types": ["bun-types"]
+    "target": "es2022"
   }
 }
