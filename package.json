@@ -22,18 +22,14 @@
     "deploy": "npm publish --access=public",
     "prepare": "tsc"
   },
-  "keywords": [
-    "template",
-    "literal",
-    "shell",
-    "command",
-    "argument"
-  ],
-  "devDependencies": {
-    "bun-types": "^1.0.15",
+  "keywords": ["template", "literal", "shell", "command", "argument"],
+  "peerDependencies": {
     "typescript": "^5.0.2"
   },
   "dependencies": {
     "string-argv": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.4"
   }
 }
